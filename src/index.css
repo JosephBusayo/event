@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,400;0,9..40,600;1,9..40,500&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&family=Oswald&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    body {
+        @apply font-dmsans bg-primaryColorLight dark:bg-primaryColor overflow-x-hidden max-w-screen-2xl dark:text-white m-auto;
+    }
+}
